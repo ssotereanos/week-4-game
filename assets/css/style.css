@@ -2,10 +2,11 @@
 #paragraph-text {
 
 	background-color:white;
-	 width: 1500px;
+	 width: 1400px;
 	 height:1000px;
     margin: auto;
     color:#696969;
+
 
 }
 
@@ -28,22 +29,33 @@ h1 {
 }
 
 #randomnumber {
-	color:	#696969;
-	font-size:100px;
-	font-size:100px;
+	color:#db5c7b;
+	font-family:'impact';
+	font-size: 300px;
+ margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #scoreboard {
 	color:	#696969;
 	font-size:100px;
+	
 }
+
 
 
 #totalscore {
     color: #696969;
 	font-size:70px
-	background-color: white;
+
 	
+}
+
+h2 {
+	background-color: white;
+	width:1500px;
+	margin: auto;
+
 }
 
 
