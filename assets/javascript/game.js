@@ -26,7 +26,7 @@ function reset(){
       num3= Math.floor(Math.random()*11+1);
       num4= Math.floor(Math.random()*11+1);
       userTotal= 0;
-      $('#totalscore').text(userTotal);
+      $('#yourScore').text(userTotal);
       } 
 //adds the wins to the userTotal
 function yay(){
