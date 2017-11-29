@@ -46,7 +46,7 @@ alert ("You lose!");
   $('#one').on ('click', function(){
     userTotal = userTotal + num1;
     console.log("New userTotal= " + userTotal);
-    $('#totalscore').text(userTotal); 
+    $('#yourScore').text(userTotal); 
           //sets win/lose conditions
         if (userTotal == Random){
           yay();
@@ -58,7 +58,7 @@ alert ("You lose!");
   $('#two').on ('click', function(){
     userTotal = userTotal + num2;
     console.log("New userTotal= " + userTotal);
-    $('#totalscore').text(userTotal); 
+    $('#yourScore').text(userTotal); 
         if (userTotal == Random){
           yay();
         }
@@ -69,7 +69,7 @@ alert ("You lose!");
   $('#three').on ('click', function(){
     userTotal = userTotal + num3;
     console.log("New userTotal= " + userTotal);
-    $('#totalscore').text(userTotal);
+    $('#yourScore').text(userTotal);
 //sets win/lose conditions
           if (userTotal == Random){
           yay();
@@ -81,7 +81,7 @@ alert ("You lose!");
   $('#four').on ('click', function(){
     userTotal = userTotal + num4;
     console.log("New userTotal= " + userTotal);
-    $('#totalscore').text(userTotal); 
+    $('#yourScore').text(userTotal); 
       
           if (userTotal == Random){
           yay();
